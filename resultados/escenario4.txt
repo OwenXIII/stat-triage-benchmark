@@ -1,0 +1,15 @@
+Running 1m test @ https://stat-triage.xiii.pe/
+  4 threads and 200 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   118.68ms   67.74ms   1.48s    98.50%
+    Req/Sec   423.31    120.15   505.00     88.52%
+  Latency Distribution
+     50%  107.60ms
+     75%  112.92ms
+     90%  129.47ms
+     99%  646.08ms
+  13970 requests in 1.00m, 19.02MB read
+  Socket errors: connect 2713, read 200, write 0, timeout 1
+  Non-2xx or 3xx responses: 11754
+Requests/sec:    232.59
+Transfer/sec:    324.31KB
